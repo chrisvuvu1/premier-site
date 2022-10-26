@@ -9,14 +9,14 @@
 #Header{
     position: relative;
     height: 250px;
-    background-image: url(i/hd.png);
+    background-image: url(image/chris.jpeg);
 } 
 #Header ul{
     display: flex;
     justify-content: space-around;
     color: white;
     list-style-type: none;
-    background-color: red;
+    background-color: rgb(243, 117, 14);
     height: 40px;
 }
 ul li:hover {
@@ -162,7 +162,7 @@ border:ridge rosybrown;
    opacity: 0.8;
 }
 .page {
-    border-top: solid red;
+    border-top: solid rgb(241, 105, 14);
 }
 #article {
     float: left;
