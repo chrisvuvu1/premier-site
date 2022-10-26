@@ -1,0 +1,190 @@
+#Cercle{
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    margin-top: -15.6px;
+    
+}
+
+#Header{
+    position: relative;
+    height: 250px;
+    background-image: url(i/hd.png);
+} 
+#Header ul{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style-type: none;
+    background-color: red;
+    height: 40px;
+}
+ul li:hover {
+    background-color:white;
+    color: red;
+    border-radius: 3px;
+    width: 150px;
+    padding: 5px;
+}
+h2,h3 {
+    background-image: url(i/ai4.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 25px;
+    border-bottom: 1px dotted black;
+    padding-bottom: 3px;
+}
+    
+
+h4 {
+    background-image: url(i/ai6.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 25px;
+    border-bottom: 1px dotted black;
+    padding-bottom: 3px;
+}
+#Pre {
+    background-color: rgb(150, 146, 146);
+    border-left: solid red;
+}
+#Cite {
+    background-color: rgb(244, 239, 247);
+    border-left: solid rgb(241, 9, 9);
+}
+#Alerte {
+    background-color: rgb(172, 66, 66);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 15px;
+}
+#Notice {
+    background-color: yellow;
+    border-radius:10px ;
+    padding: 10px;
+    margin-right: 15px;
+}
+#Confirmation {
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 15px;
+}
+caption {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    
+}
+#Auteur {
+    width: 100%;
+    background-color: rgb(231, 229, 224);
+    border-radius: 10px;
+    border: none white;
+    padding: 10px;
+}
+#auteur2 {
+    float: left;
+}
+.Form{
+    width: 75%;
+    right: 20px;
+    background-color: rgb(231, 230, 227);
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+video { width: 100%;}
+.Cellule {
+    background-color: white;
+    border: ridge;
+    padding-left:150px ;
+}
+#Gauche {
+    right: 70%;
+    padding-left: 1px;
+}
+#Droite {
+    right: 30%;
+    padding-right: 1px;
+}
+#submit {
+    background-color: rgb(41, 37, 37);
+    color: white;
+}
+#Conteneur {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+}
+.col {
+    height: 200px;
+    flex-direction: 50%;
+}
+article {
+    flex: 70%;
+    padding: 20px;
+}
+aside {
+    flex: 30%;
+    border-left: 1px dotted black;
+    padding: 20px ;
+}
+.position {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.image1 img{  
+margin-bottom: 10px;
+border:ridge rosybrown;
+    
+}
+.image2 img {
+    border: ridge rosybrown;
+    width: 50px; 
+    height: 50px;
+}
+#premier {
+    background-color: rgb(138, 136, 133);
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    color: white;
+    width: 60%;
+    border-radius: 10px;
+   font-weight: bold ;
+   text-align: center;
+   opacity: 0.8;
+}
+.page {
+    border-top: solid red;
+}
+#article {
+    float: left;
+    padding: 5px;
+}
+#recherche {
+    background-color: rgb(39, 38, 37);
+    border-radius: 10px;
+    width: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table tr th {
+    border-bottom: solid red;
+    background-color: white;
+}
+tr:nth-child(odd) {
+    background-color: rgb(151, 146, 146);
+}
+.puce {
+    list-style-image: url(i/ai2.png);
+}
+

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formation en programmation</title>
+    <link rel="stylesheet" href="text.css">
+</head>
+<body class="page">
+    <div id="Cercle">
+        <header id="Header"> 
+            <nav>
+                <ul>
+                    <li>Accueil</li>
+                    <li>A propos</li>
+                    <li>contact</li>
+                </ul>
+            </nav>
+                <p id="premier">Connaitre HTML et CSS, vous permettra d'afficher et
+                 <br>de structurer du contenu, de creer des liens hypertextes, 
+                 <br>d'indexer une page dans un moteur de recherches et 
+                 <br>de communiquer des informations importantes au navigateur
+                </p>
+        </header>
+        <main id="Conteneur">
+            <article id="Gauche"> 
+            <h2>HTML5 ET CSS3</h2>
+                <img src="image/téléchargement (1).jfif" alt="Rouge" title="Rouge" id="article"/>
+                <p>Ce site web reprend quelques notions que nous verrons durant la formation
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    <br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    <br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            <section>
+                <h4>Exemple de la balise pre et code</h4>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                    <br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here</p>
+                <div id="Pre">
+                    <pre>
+    Pre {
+        font-size   : 12px;
+        background   : *F0F0F0
+    }
+                    </pre>
+                </div>
+            </section>
+            <section>
+                <h4>Exemple Blockquote</h4>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, 
+                    <br>by injected humour, or randomised words which don't look even slightly believable.</p>
+                
+                <div id="Cite">
+                    <cite>Jean-Luc Picard</cite>
+                    <blockquote> With the first link, the chain is forged. The first speech censoredd</blockquote>
+                </div>
+            </section>
+            <section>
+                <h4>Exemple Alertes</h4>
+                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. 
+                    <br>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
+                    <p id="Alerte"><strong>Alert</strong>: this is how an alert looks like</p>
+                    <p id="Notice"><strong>Notice</strong>: this is how a notice looks like.</p>
+                    <p id="Confirmation"><strong>Confirmation</strong> this is how a confirmation looks like.</p>
+            </section>
+            <section>
+                <h4>Exemples Table</h4>
+                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                <table>
+                    <caption>Mini HTML5 Reference Guide</caption>
+                    <tr>
+                        <th>Tag</th>
+                        <th>info</th>
+                        <th>Attribute</th>
+                    </tr>
+                    <tr>
+                        <td>abbr</td>
+                        <td>Abbreviation</td>
+                        <td>Global attributes</td>
+                    </tr>
+                    <tr>
+                        <td>Area</td>
+                        <td>in an image map</td>
+                        <td>alt, coord, href, hreflang, media, ping, ref <br> Shape, target, type</td>
+                    </tr>
+                    <tr>
+                        <td>article</td>
+                        <td>article/content</td>
+                        <td>global attribute</td>
+                    </tr>
+                    <tr>
+                        <td>aside</td>
+                        <td>sidebar</td>
+                        <td>global attributes</td>
+                    </tr>
+                    <tr>
+                        <td>audio</td>
+                        <td>sound content</td>
+                        <td>autobuffer, autoplay, controls, loop, src</td>
+                    </tr>
+                    <tr>
+                        <td>b</td>
+                        <td>blod text</td>
+                        <td>global attribute</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h4>Exemple Video</h4>
+                <p>you can put your video files here</p>
+                <video controls src="video/Video1.mp4" type="Video-mp4"></video>
+            </section>
+            <section>
+                <h4>Exemple Audio</h4>
+                <p>you can put your audio files here</p>
+                <audio controls src="audio/audio"></audio>
+            </section>
+            <section>
+                <h4>Exemple Listes</h4>
+                <p>two differents kinds of lists were styled: irdere liste and unordere list</p>
+                <ol>
+                    <li>This is</li>
+                    <li>The ordered</li>
+                    <li>Listing</li>
+                </ol>
+                <ul>
+                    <li>This is</li>
+                    <li>The Ordere</li>
+                    <li>Listing</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Exemple Formulaire</h4>
+                <p>this is how a form will look like in this template</p>
+                <div class="Form">
+                    <form>
+                        <p>
+                            <label for="Nom"> Nom</label>
+                            <input class="Cellule" type="text" name="Nom" placeholder="Votre nom">
+                        </p>
+                        <p>
+                            <label for="Email">Email</label>
+                             <input class="Cellule" type="text" name="Email" placeholder="Votre adresse email">
+                        </p>
+                        <p>
+                            <label for="Message">Message</label>
+                            <textarea class="Cellule" rows="10"></textarea>
+                        </p>
+                        <p>
+                        <label for="Envoyer"></label>
+                        <input type="submit" value="Envoyer">
+                        <label for="Annuler"></label>
+                        <input type="reset" value="Annuler">
+                        </p>
+                    </form>
+                </div>
+            </section>
+            <section>
+                <h4>Choisir un theme</h4>
+                <div>
+                    <p>
+                        <input type="radio" id="blanc" name="blanc" value="Blanc"/>
+                         <label for="Blanc">Blanc</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="blanc" name="blanc" value="Orange"/>
+                         <label for="Orange">Orange</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="blanc" name="blanc" value="Bleu"/>
+                        <label for="Bleu">Bleu</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="blanc" id="blanc" value="vert"/>
+                        <label for="Vert">Vert</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="blanc" id="blanc" value="Rose"/>
+                        <label for="Rose">Rose</label>
+                    </p>
+                </div>
+            </section>
+            </article>
+            <aside id="Droite">
+                <h3>Recherche</h3>
+                    <div id="recherche">
+                        <input id="Searchbar" type="text" name="search" placeholder="Faites votre recherche" >
+                    </div>
+                <div> 
+                    <h3>A propos de l'auteur</h3>
+                    <div id="Auteur">
+                        <p><strong>Jonas Jacek</strong></p>
+                        <img src="image/téléchargement (2).jfif"/>
+                        <p>Welcome to my free HTML5 and CSS3 website template.<br>
+                        I strongly believe in free and open source software ande open satandar</p>
+                    </div>
+                </div>
+                <h3>Navigation</h3>
+                    <ul id="puce">
+                        <li>lorem</li>
+                        <li>Ipsum</li>
+                        <li>Dolor Sit</li>
+                            <ul>
+                                <li>Amet</li>
+                                <li>Amet</li>
+                            </ul>
+                        <li>Lorem</li>
+                        <li>Ipsum</li>
+                    </ul>
+                <h3>Exemple Gallerie</h3>
+                  <div class="position">
+                     <div class="image1">
+                        <img src="image/téléchargement (3).jfif" alt="Image" title="Image"/>
+                        <img src="image/téléchargement (4).jfif" alt=""/>
+                        <img src="image/téléchargement (5).jfif" alt=""/>
+                    </div>
+                    <div class="image2">
+                        <img src="image/téléchargement (6).jfif" alt=""/>
+                        <img src="image/téléchargement (7).jfif" alt=""/>
+                        <img src="image/téléchargement (8).jfif" alt=""/>
+                    </div>
+                  </div>
+    
+            </aside>
+        </main> 
+        <footer>
+            <p><small>2022 by tuto web, All Rigths Reserved..</small> </p>
+        </footer>
+
+
+
+
+    </div>
+      
+</body>
+</html>
